@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
+import { Analytics } from "@vercel/analytics/react";
 import { AutoNumberSpring } from "./spring/AutoNumberSpring";
 import { NumberSlider } from "./NumberPicker";
 import { SpringConfigInput } from "./spring/config";
@@ -141,6 +142,7 @@ export function App() {
   }, []);
   return (
     <Shell>
+      <Analytics />
       <CardHolder>
         <Card ref={cardRef} />
         <Options>
