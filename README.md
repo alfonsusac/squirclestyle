@@ -28,10 +28,6 @@ yarn preview
 
 ⚠️ **Note**: The `corner-shape` property is experimental and currently only supported in the latest versions of Chrome (Nov 2025).
 
-## License
-
-MIT
-
 ---
 
 Made with ❤️ for designers and developers who appreciate smooth corners.
