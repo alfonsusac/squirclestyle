@@ -196,6 +196,10 @@ export function App() {
           >
             Screen Studio
           </a>
+          . Give it a star on{" "}
+          <a href="https://github.com/pie6k/squirclestyle" target="_blank">
+            GitHub
+          </a>
           .
         </p>
       </UIFootNote>
